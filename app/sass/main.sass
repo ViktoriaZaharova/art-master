@@ -264,6 +264,12 @@ a
 .w-100
   width: 100%
 
+h1
+  text-transform: uppercase
+  font-size: 48px
+  font-weight: bold
+  width: 100%
+
 h2
   text-align: center
   font-size: 48px
@@ -271,6 +277,7 @@ h2
   margin: 0 auto 30px
   width: 100%
   color: $accent
+  text-transform: uppercase
 
 header
   .logo
@@ -907,6 +914,7 @@ footer
   border: none
   flex-wrap: wrap
   text-transform: uppercase
+
   p
     margin: 0 auto 30px
     font-size: 27px
@@ -925,6 +933,7 @@ footer
     top: -22px
     right: -22px
     padding: 0
+
     &:hover
       opacity: 1
 
@@ -949,6 +958,7 @@ modal-body
   align-items: flex-start
   flex-wrap: wrap
   justify-content: space-between
+
   button
     margin: 40px auto 0
     padding: 9px 40px
@@ -971,7 +981,218 @@ input
   box-shadow: none
   text-transform: uppercase
 
+//about page
+.about-page-line__video
+  margin: 0 0 -30px
+  background: url('../img/about/about-page-line__video.jpg') no-repeat center 366px
 
+  .iframe-video
+    max-width: 1025px
+
+.iframe-video
+  display: flex
+  width: 100%
+  margin: 0 auto
+  height: 580px
+  border: 2px solid #000
+
+//breadcrumb-line
+.breadcrumb-line
+  margin: 60px 0 0
+
+.breadcrumb-nav
+  background: transparent
+
+.breadcrumb
+  padding: 0
+  background: transparent
+  border-radius: 0
+  font-size: 14px
+  margin: 0
+
+.breadcrumb-item
+  color: $accent
+
+  a
+    color: $accent
+    text-decoration: underline
+
+.breadcrumb-item.active
+  color: $accent
+
+.breadcrumb-item + .breadcrumb-item
+  padding: 0
+
+  &::before
+    content: '\2192'
+    padding: 0
+    color: inherit
+    margin: 0 5px
+
+.breadcrumb-line-internal
+  margin: 20px 0
+
+  .breadcrumb-item
+    color: #5c5c5c
+    font-size: 16px
+
+    a
+      color: #08c
+      text-decoration: none
+
+      &:hover
+        text-decoration: underline
+        color: #005580
+
+//mission-company
+.mission-company
+  margin: 30px 0 0
+  background: url('../img/about/about-page-line__miss.png') no-repeat center center
+  min-height: 469px
+
+  h1
+    color: #fff
+    margin: 15px 0 0 55px
+
+.mission-company-content
+  margin: 100px 0 0
+  font-size: 22px
+  color: #393939
+  line-height: 1.4
+
+  strong
+    font-size: 36px
+
+  p
+    margin: 0 0 10px
+
+    &:last-child
+      margin: 0
+
+//specialization-company
+.specialization-company
+  background: url('../img/about/about-page-line__spets.png') no-repeat center center
+  margin: 80px 0 0
+  min-height: 428px
+
+  h2
+    text-align: left
+    margin: 45px 0 0 50px
+
+.specialization-company__content
+  font-size: 48px
+  font-weight: bold
+  text-transform: uppercase
+  color: #fff
+  text-align: right
+  margin: 60px 58px 0 0
+
+//advantages-company
+.advantages-company
+  margin: 120px 0 20px
+  background: url('../img/about/about-page-line__preim.jpg') no-repeat center center
+    size: cover
+
+  h2
+    width: fit-content
+    padding: 4px 15px
+    margin: -35px auto 70px
+    background: $accent
+    color: #fff
+
+.advantages-company__box
+  background: #fff
+  margin: 0 auto 40px
+  padding: 25px 10px
+  display: flex
+  flex-direction: column
+  align-items: center
+  text-align: center
+  font-size: 22px
+  min-height: 207px
+
+//federal-companies
+.federal-companies
+  margin: 110px 0 0
+  min-height: 478px
+  background: url('../img/about/about-page-line__map.png') no-repeat center center
+
+  h2
+    text-align: left
+    color: #363636
+
+.color-accent
+  color: $accent
+
+.federal-companies__content
+  margin: 40px
+  padding: 40px
+  color: #fff
+  background: #363636
+  font-size: 22px
+  text-align: justify
+  line-height: 1.6
+
+//page clients
+.page-internal
+  background: url('../img/bga.png') no-repeat center bottom
+  .partners
+    padding: 0
+
+.services-line
+  background: #ececec
+
+.services-menu
+  width: 100%
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+
+  li
+    a
+      padding: 10px 25px
+      text-align: center
+      text-transform: uppercase
+      line-height: 25px
+      color: #393939
+      font-size: 20px
+      font-weight: 100
+
+.clients
+  position: relative
+  padding: 0 0 20px
+  &:before
+    content: ''
+    position: absolute
+    left: 0
+    bottom: 0
+    width: 100%
+    height: 20px
+    background: url('../img/sld.jpg') repeat
+  h1
+    text-transform: none
+    letter-spacing: -1px
+    font-size: 30px
+    font-weight: 300
+    color: $accent
+    margin: 10px 0
+
+.clients-box
+  width: 165px
+  margin: 10px
+  text-align: center
+  color: #5c5c5c
+
+.clients-box__img
+  display: flex
+  align-items: center
+  justify-content: center
+  margin: 0 auto 10px
+  padding: 20px
+  background: #fff
+  border: 1px solid #c3c3c3
+    radius: 5px
+  height: 118px
 
 @import "media"
 // Всегда в конце

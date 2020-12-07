@@ -258,13 +258,20 @@ a {
 .w-100 {
   width: 100%; }
 
+h1 {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: bold;
+  width: 100%; }
+
 h2 {
   text-align: center;
   font-size: 48px;
   font-weight: bold;
   margin: 0 auto 30px;
   width: 100%;
-  color: #e44d26; }
+  color: #e44d26;
+  text-transform: uppercase; }
 
 header .logo {
   display: -webkit-box;
@@ -983,6 +990,219 @@ input {
           box-shadow: none;
   text-transform: uppercase; }
 
+.about-page-line__video {
+  margin: 0 0 -30px;
+  background: url("../img/about/about-page-line__video.jpg") no-repeat center 366px; }
+  .about-page-line__video .iframe-video {
+    max-width: 1025px; }
+
+.iframe-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  height: 580px;
+  border: 2px solid #000; }
+
+.breadcrumb-line {
+  margin: 60px 0 0; }
+
+.breadcrumb-nav {
+  background: transparent; }
+
+.breadcrumb {
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  font-size: 14px;
+  margin: 0; }
+
+.breadcrumb-item {
+  color: #e44d26; }
+  .breadcrumb-item a {
+    color: #e44d26;
+    text-decoration: underline; }
+
+.breadcrumb-item.active {
+  color: #e44d26; }
+
+.breadcrumb-item + .breadcrumb-item {
+  padding: 0; }
+  .breadcrumb-item + .breadcrumb-item::before {
+    content: '\2192';
+    padding: 0;
+    color: inherit;
+    margin: 0 5px; }
+
+.breadcrumb-line-internal {
+  margin: 20px 0; }
+  .breadcrumb-line-internal .breadcrumb-item {
+    color: #5c5c5c;
+    font-size: 16px; }
+    .breadcrumb-line-internal .breadcrumb-item a {
+      color: #08c;
+      text-decoration: none; }
+      .breadcrumb-line-internal .breadcrumb-item a:hover {
+        text-decoration: underline;
+        color: #005580; }
+
+.mission-company {
+  margin: 30px 0 0;
+  background: url("../img/about/about-page-line__miss.png") no-repeat center center;
+  min-height: 469px; }
+  .mission-company h1 {
+    color: #fff;
+    margin: 15px 0 0 55px; }
+
+.mission-company-content {
+  margin: 100px 0 0;
+  font-size: 22px;
+  color: #393939;
+  line-height: 1.4; }
+  .mission-company-content strong {
+    font-size: 36px; }
+  .mission-company-content p {
+    margin: 0 0 10px; }
+    .mission-company-content p:last-child {
+      margin: 0; }
+
+.specialization-company {
+  background: url("../img/about/about-page-line__spets.png") no-repeat center center;
+  margin: 80px 0 0;
+  min-height: 428px; }
+  .specialization-company h2 {
+    text-align: left;
+    margin: 45px 0 0 50px; }
+
+.specialization-company__content {
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: right;
+  margin: 60px 58px 0 0; }
+
+.advantages-company {
+  margin: 120px 0 20px;
+  background: url("../img/about/about-page-line__preim.jpg") no-repeat center center;
+    background-size: cover; }
+  .advantages-company h2 {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 4px 15px;
+    margin: -35px auto 70px;
+    background: #e44d26;
+    color: #fff; }
+
+.advantages-company__box {
+  background: #fff;
+  margin: 0 auto 40px;
+  padding: 25px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 22px;
+  min-height: 207px; }
+
+.federal-companies {
+  margin: 110px 0 0;
+  min-height: 478px;
+  background: url("../img/about/about-page-line__map.png") no-repeat center center; }
+  .federal-companies h2 {
+    text-align: left;
+    color: #363636; }
+
+.color-accent {
+  color: #e44d26; }
+
+.federal-companies__content {
+  margin: 40px;
+  padding: 40px;
+  color: #fff;
+  background: #363636;
+  font-size: 22px;
+  text-align: justify;
+  line-height: 1.6; }
+
+.page-internal {
+  background: url("../img/bga.png") no-repeat center bottom; }
+  .page-internal .partners {
+    padding: 0; }
+
+.services-line {
+  background: #ececec; }
+
+.services-menu {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .services-menu li a {
+    padding: 10px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 25px;
+    color: #393939;
+    font-size: 20px;
+    font-weight: 100; }
+
+.clients {
+  position: relative;
+  padding: 0 0 20px; }
+  .clients:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background: url("../img/sld.jpg") repeat; }
+  .clients h1 {
+    text-transform: none;
+    letter-spacing: -1px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #e44d26;
+    margin: 10px 0; }
+
+.clients-box {
+  width: 165px;
+  margin: 10px;
+  text-align: center;
+  color: #5c5c5c; }
+
+.clients-box__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto 10px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #c3c3c3;
+    border-radius: 5px;
+  height: 118px; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -1017,13 +1237,43 @@ input {
     font-size: 20px; }
   .footer-item {
     padding: 0 10px;
-    width: 25%; } }
+    width: 25%; }
+  .mission-company-content {
+    margin: 40px 0 0; }
+  .mission-company h1 {
+    background: #ff4c1f;
+    margin: 0;
+    height: 81px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .advantages-company {
+    margin: 100px 0 20px;
+    background-size: cover; }
+    .advantages-company h2 {
+      margin: -35px auto 50px; }
+  .federal-companies {
+    margin: 40px auto 0;
+    min-height: auto;
+    background-size: 100%; }
+    .federal-companies h2 {
+      text-align: center; }
+  .services-menu {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .services-menu li a {
+      padding: 5px;
+      font-size: 16px;
+      line-height: normal; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .header-box {
     text-align: center; }
-  h2 {
+  h2, h1, .specialization-company__content {
     font-size: 40px; }
   .customer-problems__item {
     width: 49%;
@@ -1050,7 +1300,9 @@ input {
     font-size: 20px;
     padding: 5px 20px; }
   input {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .iframe-video {
+    height: 450px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px) {
@@ -1111,7 +1363,41 @@ input {
     width: 20px;
     height: 20px; }
   .form button {
-    margin: 20px auto 0; } }
+    margin: 20px auto 0; }
+  .iframe-video {
+    height: 300px; }
+  .mission-company-content {
+    font-size: 18px;
+    line-height: normal;
+    margin: 30px 0; }
+    .mission-company-content strong {
+      font-size: 22px; }
+  .mission-company {
+    min-height: auto;
+    background: transparent; }
+    .mission-company h1 {
+      height: auto;
+      background: transparent;
+      color: #e44d26; }
+  .specialization-company {
+    min-height: auto;
+    margin: 40px 0 0;
+    padding: 30px 0; }
+    .specialization-company h2 {
+      margin: 0 auto;
+      text-align: center; }
+  .specialization-company__content {
+    margin: 30px auto;
+    font-size: 30px;
+    text-align: center; }
+  .federal-companies__content {
+    margin: 20px auto 0;
+    padding: 20px;
+    font-size: 16px; }
+  .services-menu li {
+    width: 33.3%; }
+    .services-menu li a br {
+      display: none; } }
 
 @media only screen and (max-width: 480px) {
   .phone {
@@ -1128,7 +1414,7 @@ input {
     font-size: 14px; }
     .links-category img {
       max-width: 60px; }
-  h2 {
+  h2, h1 {
     font-size: 30px; }
   .youwant-line__item {
     font-size: 18px;
@@ -1167,7 +1453,22 @@ input {
     .footer-item__links br {
       display: none; }
     .footer-item__links img {
-      margin: 0 0 10px; } }
+      margin: 0 0 10px; }
+  .iframe-video {
+    height: 250px; }
+  .specialization-company__content {
+    font-size: 24px; }
+  .specialization-company {
+    margin: 20px auto 0; }
+  .advantages-company__box {
+    min-height: auto; }
+  .services-menu li {
+    width: 50%; }
+    .services-menu li a {
+      font-size: 14px; }
+  .clients-box {
+    width: 49%;
+    margin: 10px 0; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 380px) {

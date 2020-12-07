@@ -47,12 +47,46 @@
     padding: 0 10px
     width: 25%
 
+  .mission-company-content
+    margin: 40px 0 0
+
+  .mission-company
+    h1
+      background: #ff4c1f
+      margin: 0
+      height: 81px
+      align-items: center
+      display: flex
+
+  .advantages-company
+    margin: 100px 0 20px
+    -webkit-background-size: cover
+    background-size: cover
+    h2
+      margin: -35px auto 50px
+
+  .federal-companies
+    margin: 40px auto 0
+    min-height: auto
+    -webkit-background-size: 100%
+    background-size: 100%
+    h2
+      text-align: center
+
+  .services-menu
+    justify-content: space-around
+    li
+      a
+        padding: 5px
+        font-size: 16px
+        line-height: normal
+
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px)
   .header-box
     text-align: center
 
-  h2
+  h2, h1, .specialization-company__content
     font-size: 40px
 
   .customer-problems__item
@@ -91,6 +125,9 @@
 
   input
     font-size: 18px
+
+  .iframe-video
+    height: 450px
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px)
@@ -177,6 +214,51 @@
   .form button
     margin: 20px auto 0
 
+  .iframe-video
+    height: 300px
+
+  .mission-company-content
+    font-size: 18px
+    line-height: normal
+    margin: 30px 0
+    strong
+      font-size: 22px
+
+  .mission-company
+    min-height: auto
+    background: transparent
+    h1
+      height: auto
+      background: transparent
+      color: $accent
+
+  .specialization-company
+    min-height: auto
+    margin: 40px 0 0
+    padding: 30px 0
+
+    h2
+      margin: 0 auto
+      text-align: center
+
+  .specialization-company__content
+    margin: 30px auto
+    font-size: 30px
+    text-align: center
+
+  .federal-companies__content
+    margin: 20px auto 0
+    padding: 20px
+    font-size: 16px
+
+  .services-menu
+    li
+      width: 33.3%
+      a
+        br
+          display: none
+
+
 @media only screen and (max-width: 480px)
   .phone
     font-size: 16px
@@ -199,7 +281,7 @@
     img
       max-width: 60px
 
-  h2
+  h2, h1
     font-size: 30px
 
   .youwant-line__item
@@ -248,6 +330,28 @@
       display: none
     img
       margin: 0 0 10px
+
+  .iframe-video
+    height: 250px
+
+  .specialization-company__content
+    font-size: 24px
+
+  .specialization-company
+    margin: 20px auto 0
+
+  .advantages-company__box
+    min-height: auto
+
+  .services-menu
+    li
+      width: 50%
+      a
+        font-size: 14px
+
+  .clients-box
+    width: 49%
+    margin: 10px 0
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 380px)
