@@ -56,6 +56,27 @@ $('.partners-slider').slick({
     ]
 });
 
+$('.logo-line__portfolio-slider').slick({
+    slidesToShow: 3,
+    dots: true,
+    responsive: [
+        {
+            breakpoint: 575,
+            settings: {
+                slidesToShow: 2,
+            }
+        }
+    ]
+});
+
+$('.logo-line__slider1').slick({
+    slidesToShow: 1
+});
+
+$('.modal').on('shown.bs.modal', function (e) {
+    $(this).find('.slick-slider').slick('setPosition');
+});
+
 // активная ссылка меню
 $('.services-menu li a').each(function () {
     var location = window.location.href;
@@ -93,6 +114,8 @@ $('.more-reviews').on('click', function(e){
         content.slice(1).slideUp();
     }
 });
+
+$('.fancybox-item').fancybox();
 
 // map
 ymaps.ready(function () {

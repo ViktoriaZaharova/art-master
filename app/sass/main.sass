@@ -1771,5 +1771,139 @@ input
   border: none
   background: transparent
 
+//logo-line-description
+.logo-line-description
+  h2
+    font-size: 40px
+    margin: 0 auto 20px
+
+.logo-line-description__box
+  margin-top: 80px
+
+.logo-line-description__box-content
+  position: relative
+  h3
+    text-transform: uppercase
+    text-align: center
+    margin: 0 auto 20px
+    font-size: 35px
+    font-weight: bold
+  p
+    font-size: 27px
+    text-align: justify
+    line-height: 33px
+
+.logo-line__types_arrow
+  position: absolute
+  right: -150px
+  top: -50px
+
+.logo-line__types_arrow2
+  right: auto
+  left: -150px
+
+.logo-line__types_arrow3
+  top: -60px
+
+.links-img
+  margin: 40px auto 0
+  display: flex
+  align-items: center
+  justify-content: center
+
+//.logo-line__stages
+.logo-line__stages
+  margin: 80px auto 0
+  p
+    font-size: 33px
+    margin: 0 0 40px
+  h2
+    font-size: 40px
+    padding: 40px 0 0
+    border-top: 4px solid #C2C2C2
+    margin: 0 auto 20px
+
+//.logo-line__costs
+.logo-line__costs
+  .links-img
+    margin: 160px auto 0
+
+
+.logo-line__costs_text
+  width: 1133px
+  min-height: 606px
+  background: url('../img/logo-development/logo-line__costs_text.png') no-repeat center center
+  padding: 190px 0 0 70px
+  font-size: 30px
+  color: #fff
+
+.logo-line__presentation
+  img
+    margin: 0 auto
+  .links-img
+    margin: 0
+
+//.logo-line__portfolio
+.logo-line__portfolio
+  margin: 80px 0 70px
+  p
+    text-align: center
+
+.logo-line__portfolio-slider.slick-slider
+  margin-bottom: 0
+
+.logo-line__portfolio-box
+  display: flex
+  align-items: center
+  justify-content: center
+  position: relative
+  overflow: hidden
+  border-radius: 50%
+  padding: 20px
+  &:before
+    content: ''
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%,-50%)
+    width: calc(100% - 40px)
+    height: calc(100% - 40px)
+    background: url("../img/logo-development/logo-opacity.png") no-repeat center
+      size: cover
+    transition: .3s ease
+  &:hover
+    &:before
+      opacity: 0
+
+.logo-line__portfolio-slider
+  .slick-prev
+    background: url('../img/logo-development/logo-line__slider_prev.png') no-repeat center
+      size: contain
+    left: -90px
+  .slick-arrow
+    width: 41px
+    height: 142px
+  .slick-next
+    right: -90px
+    background: url('../img/logo-development/logo-line__slider_next.png') no-repeat center
+      size: contain
+
+.logo-line__slider_item
+  padding: 20px
+
+.logo-line__slider_inner
+  .slick-arrow
+    width: 20px
+    height: 72px
+  .slick-prev
+    background: url('../img/logo-development/logo-line__slider_inner-prev.jpg') no-repeat center
+      size: contain
+    left: -30px
+  .slick-next
+    right: -30px
+    background: url('../img/logo-development/logo-line__slider_inner-next.jpg') no-repeat center
+      size: contain
+
+
 @import "media"
 // Всегда в конце
