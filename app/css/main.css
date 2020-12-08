@@ -1143,6 +1143,13 @@ input {
     padding: 0; }
   .page-internal .container {
     max-width: 970px; }
+  .page-internal h1 {
+    text-transform: none;
+    letter-spacing: -1px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #e44d26;
+    margin: 10px 0; }
 
 .services-line {
   background: #ececec; }
@@ -1181,13 +1188,6 @@ input {
     width: 100%;
     height: 20px;
     background: url("../img/sld.jpg") repeat; }
-  .clients h1 {
-    text-transform: none;
-    letter-spacing: -1px;
-    font-size: 30px;
-    font-weight: 300;
-    color: #e44d26;
-    margin: 10px 0; }
 
 .clients-box {
   width: 165px;
@@ -1378,6 +1378,75 @@ input {
     margin: 0;
     border: none;
     padding: 0; }
+
+.color-blue {
+  color: #08c; }
+
+.links {
+  display: inline-block; }
+  .links:hover {
+    text-decoration: underline; }
+
+.box-text {
+  line-height: 1.6em;
+  color: #5c5c5c; }
+  .box-text p {
+    margin: 0 0 20px; }
+    .box-text p:last-child {
+      margin: 0; }
+  .box-text strong {
+    font-weight: bold; }
+
+.exhibition-stands h1 {
+  margin: 10px 0 20px; }
+
+.exhibition-stands .box-text {
+  padding: 0 0 0 25px;
+  margin: 0 0 20px; }
+
+.exhibition-stands h3 {
+  font-weight: 300;
+  color: #e44d26;
+  font-size: 30px;
+  margin: 10px 0;
+  text-transform: none; }
+
+.exhibition-stands__box-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 17px;
+  margin: 0 auto 20px;
+  color: #5c5c5c; }
+  .exhibition-stands__box-up p {
+    max-width: 230px;
+    margin: 0 auto;
+    width: 100%; }
+
+.exhibition-stands__box-up-title {
+  margin: 20px auto 10px;
+  font-weight: bold;
+  color: #08c; }
+
+.decor-bg {
+  position: relative;
+  padding: 0 0 20px; }
+  .decor-bg:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background: url("../img/sld.jpg") repeat; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
@@ -1629,14 +1698,18 @@ input {
     font-size: 20px; }
     .contacts-box a, .contacts-box .mail {
       font-size: 20px; }
-  .installment-terms h3 {
+  .installment-terms h3, .exhibition-stands h3 {
     font-size: 24px; }
   .list-dots {
     padding: 0 0 0 20px; }
   .installment-terms {
     font-size: 14px; }
   .installment-terms__box .btn {
-    margin: 30px auto 15px; } }
+    margin: 30px auto 15px; }
+  .exhibition-stands .box-text {
+    padding: 0; }
+  .exhibition-stands__box-up p {
+    max-width: none; } }
 
 @media only screen and (max-width: 480px) {
   .phone {

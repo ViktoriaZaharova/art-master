@@ -1144,6 +1144,13 @@ input
     padding: 0
   .container
     max-width: 970px
+  h1
+    text-transform: none
+    letter-spacing: -1px
+    font-size: 30px
+    font-weight: 300
+    color: $accent
+    margin: 10px 0
 
 .services-line
   background: #ececec
@@ -1179,13 +1186,7 @@ input
     width: 100%
     height: 20px
     background: url('../img/sld.jpg') repeat
-  h1
-    text-transform: none
-    letter-spacing: -1px
-    font-size: 30px
-    font-weight: 300
-    color: $accent
-    margin: 10px 0
+
 
 .clients-box
   width: 165px
@@ -1356,6 +1357,67 @@ input
     border: none
     padding: 0
 
+.color-blue
+  color: #08c
+
+.links
+  display: inline-block
+  &:hover
+    text-decoration: underline
+
+.box-text
+  line-height: 1.6em
+  color: #5c5c5c
+  p
+    margin: 0 0 20px
+    &:last-child
+      margin: 0
+  strong
+    font-weight: bold
+
+//exhibition-stands
+.exhibition-stands
+  h1
+    margin: 10px 0 20px
+  .box-text
+    padding: 0 0 0 25px
+    margin: 0 0 20px
+  h3
+    font-weight: 300
+    color: $accent
+    font-size: 30px
+    margin: 10px 0
+    text-transform: none
+
+.exhibition-stands__box-up
+  display: flex
+  flex-direction: column
+  align-items: center
+  text-align: center
+  font-size: 17px
+  margin: 0 auto 20px
+  color: $text
+  p
+    max-width: 230px
+    margin: 0 auto
+    width: 100%
+
+.exhibition-stands__box-up-title
+  margin: 20px auto 10px
+  font-weight: bold
+  color: #08c
+
+.decor-bg
+  position: relative
+  padding: 0 0 20px
+  &:before
+    content: ''
+    position: absolute
+    left: 0
+    bottom: 0
+    width: 100%
+    height: 20px
+    background: url('../img/sld.jpg') repeat
 
 
 @import "media"
