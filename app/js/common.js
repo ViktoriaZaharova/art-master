@@ -56,6 +56,16 @@ $('.partners-slider').slick({
     ]
 });
 
+// активная ссылка меню
+$('.services-menu li a').each(function () {
+    var location = window.location.href;
+    var link = this.href;
+    if (location == link) {
+        $(this).addClass('active');
+    }
+});
+// end
+
 // map
 ymaps.ready(function () {
     var myMap = new ymaps.Map('map', {
