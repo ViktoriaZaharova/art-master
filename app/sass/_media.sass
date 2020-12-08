@@ -86,7 +86,7 @@
   .header-box
     text-align: center
 
-  h2, h1, .specialization-company__content
+  h2, h1, .specialization-company__content, .contacts h1
     font-size: 40px
 
   .customer-problems__item
@@ -128,6 +128,29 @@
 
   .iframe-video
     height: 450px
+
+  .schedule
+    position: relative
+    left: 0
+    top: 0
+    width: 100%
+    max-width: none
+
+  .schedule-text
+    margin: 0 auto
+    font-size: 20px
+    h2
+      font-size: 30px
+    h3
+      font-size: 40px
+    h4
+      font-size: 24px
+
+  .map
+    margin: 0
+
+  .contacts-map .card-body ul
+    font-size: 24px
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px)
@@ -258,6 +281,51 @@
         br
           display: none
 
+  .contacts-box
+    font-size: 24px
+    margin: 20px 0 0
+    a, .mail
+      font-size: 24px
+
+  .contacts
+    min-height: auto
+    background: transparent
+    h1
+      text-align: center
+      br
+        display: none
+
+  .breadcrumb-line
+    margin: 30px 0 0
+
+  .contacts-box__icon
+    width: 35px
+    height: 30px
+
+  .contacts-map
+    margin: 30px 0 0
+
+  .contacts-map .card-body
+    text-align: left
+    ul
+      padding: 0
+      font-size: 18px
+
+  .contacts-map .card-header .btn
+    font-size: 24px
+    &:after
+      margin: 0 0 0 10px
+
+  .line-social
+    font-size: 24px
+
+  .map
+    height: 350px
+
+  .contacts-box
+    font-size: 20px
+    a, .mail
+      font-size: 20px
 
 @media only screen and (max-width: 480px)
   .phone
@@ -281,7 +349,7 @@
     img
       max-width: 60px
 
-  h2, h1
+  h2, h1, .contacts h1
     font-size: 30px
 
   .youwant-line__item

@@ -55,3 +55,26 @@ $('.partners-slider').slick({
 
     ]
 });
+
+// map
+ymaps.ready(function () {
+    var myMap = new ymaps.Map('map', {
+            center: [53.1355,45.0225],
+            zoom: 17,
+            controls: []
+        }, {
+            searchControlProvider: 'yandex#search'
+        }),
+        myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+            hintContent: ''
+        }, {
+            iconLayout: 'default#image',
+            iconImageHref: '/img/kontakts/logomap.png',
+            iconImageSize: [51, 78],
+            iconImageOffset: [-30, -70]
+        });
+    myMap.geoObjects.add(myPlacemark);
+    myMap.behaviors.disable('scrollZoom');
+    zoomControl = new ymaps.control.ZoomControl({options: { position: { right: 15, top: 130 }}});
+    myMap.controls.add(zoomControl);
+});
