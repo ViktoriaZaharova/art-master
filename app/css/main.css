@@ -1578,6 +1578,153 @@ input {
   .more-reviews:hover {
     color: #e44d26; }
 
+.main-price {
+  margin: 0; }
+
+.main-price .main-home__slider .slick-dots {
+  display: none; }
+
+.price-line-description {
+  margin: 60px 0 80px; }
+  .price-line-description .img-wrap {
+    width: 581px;
+    margin: 25px -85px 0 0;
+    z-index: 1;
+    position: relative;
+    max-width: none;
+    float: right; }
+
+.price-line-description-box {
+  background: #e44d26;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 25px;
+  padding: 50px 150px 50px 25px; }
+  .price-line-description-box strong {
+    font-weight: bold; }
+
+.price-benefit {
+  background: url("../img/price/price-line__vygoda_bg.png") no-repeat center top;
+    background-size: cover;
+  padding: 0 0 30px; }
+  .price-benefit h2 {
+    margin: 20px 0 10px;
+    position: relative;
+    color: #fff; }
+  .price-benefit .btn {
+    margin: 40px auto 0; }
+
+.price-benefit-box {
+  width: 100%;
+  margin: 80px 0 0; }
+  .price-benefit-box h3 {
+    color: #e44d26;
+    font-weight: bold;
+    font-size: 46px; }
+
+.price-benefit-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90px;
+  min-width: 90px;
+  height: 90px;
+  margin: 0 30px 0 0; }
+
+.price-benefit-box__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 30px; }
+
+.price-benefit-box__body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 0 0 80px; }
+
+.price-benefit-box__text {
+  background: #e44d26;
+  color: #fff;
+  max-width: 420px;
+  width: 100%;
+  text-align: justify;
+  font-size: 22px;
+  line-height: 25px;
+  padding: 20px 25px; }
+
+.btn-red {
+  background: #EE2524; }
+
+.btn-border {
+  background: transparent;
+  color: #e44d26;
+  border: 2px solid #e44d26;
+  font-size: 29px;
+  font-weight: 300;
+  padding: 0 5px;
+  text-transform: uppercase; }
+  .btn-border .btn-text span {
+    font-size: 18px;
+    display: block; }
+  .btn-border img {
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    margin: 0 10px 0 0; }
+  .btn-border:hover, .btn-border:focus {
+    background: #e44d26;
+    color: #fff;
+    border-color: #e44d26; }
+    .btn-border:hover img, .btn-border:focus img {
+      -webkit-filter: brightness(0) invert(1);
+              filter: brightness(0) invert(1); }
+
+.btn-download {
+  max-width: 250px;
+  width: 100%; }
+
+.price-download {
+  margin: 60px auto 0;
+  text-align: center; }
+  .price-download h3 {
+    font-size: 46px;
+    color: #e44d26; }
+  .price-download .btn {
+    margin: 40px auto 0; }
+  .price-download .box-text {
+    max-width: 690px;
+    width: 100%;
+    font-size: 22px;
+    margin: 20px auto 0;
+    color: #333; }
+  .price-download h2 {
+    margin: 20px auto; }
+
+.color-red {
+  color: #EE2524; }
+
+.img-arrow {
+  margin: 0 auto; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -1642,9 +1789,40 @@ input {
     .services-menu li a {
       padding: 5px;
       font-size: 16px;
-      line-height: normal; } }
+      line-height: normal; }
+  .price-line-description .img-wrap {
+    width: auto;
+    float: none;
+    margin: 20px auto 0;
+    max-width: 100%; }
+  .price-line-description-box {
+    padding: 20px;
+    font-size: 18px; }
+  .price-line-description {
+    margin: 30px 0; }
+  .price-benefit-box__body {
+    padding: 0; }
+  .price-benefit-box__text {
+    font-size: 18px;
+    padding: 20px;
+    text-align: left; }
+  .price-benefit-box {
+    margin: 40px 0 0; }
+    .price-benefit-box h3 {
+      font-size: 30px; }
+  .price-benefit-icon {
+    width: 70px;
+    height: 70px;
+    min-width: 70px; } }
 
 /* Small Devices, Tablets */
+@media only screen and (max-width: 940px) {
+  .price-benefit-box__text {
+    max-width: none;
+    margin: 0 auto 20px; }
+  .price-benefit .btn {
+    margin: 30px auto 0; } }
+
 @media only screen and (max-width: 768px) {
   .header-box {
     text-align: center; }
@@ -1696,7 +1874,13 @@ input {
   .map {
     margin: 0; }
   .contacts-map .card-body ul {
-    font-size: 24px; } }
+    font-size: 24px; }
+  .price-download {
+    margin: 40px auto 0; }
+    .price-download h3 {
+      font-size: 30px; }
+    .price-download .box-text {
+      font-size: 18px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px) {
@@ -1855,7 +2039,11 @@ input {
     height: 140px; }
   .logo-company {
     width: 60px;
-    height: 60px; } }
+    height: 60px; }
+  .price-benefit-icon {
+    margin: 0 20px 0 0; }
+  .price-benefit h3 {
+    font-size: 24px; } }
 
 @media only screen and (max-width: 480px) {
   .phone {
