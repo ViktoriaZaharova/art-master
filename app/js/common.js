@@ -66,6 +66,34 @@ $('.services-menu li a').each(function () {
 });
 // end
 
+// reviews box
+$('.reviews-box blockquote').each(function () {
+    if ($(this).find('p').length > 1) {
+        $(this).find('p').slice(1).hide();
+        $(this).append('<a href="#" class="more-reviews">читать полностью</a>');
+    }
+});
+
+$('.more-reviews').on('click', function(e){
+    e.preventDefault();
+
+    var
+        $this = $(this),
+        content = $(this).parent('.reviews-box blockquote').find('p');
+
+
+    if(!$this.hasClass('trigger')){
+        $this.addClass('trigger');
+        $this.html('скрыть');
+        content.slideDown();
+    } else {
+        $this.removeClass('trigger');
+        $this.html('читать полностью');
+
+        content.slice(1).slideUp();
+    }
+});
+
 // map
 ymaps.ready(function () {
     var myMap = new ymaps.Map('map', {

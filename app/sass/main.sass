@@ -1419,6 +1419,111 @@ input
     height: 20px
     background: url('../img/sld.jpg') repeat
 
+.add-reviews
+  background: $accent
+  color: #fff
+  padding: 2px 7px
+  font-style: italic
+  width: fit-content
+  margin: 0 0 25px auto
+  position: relative
+  &:hover
+    color: #fff
+
+.reviews-box
+  margin: 0 0 30px
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  position: relative
+
+.reviews-box__photo
+  position: absolute
+  left: 0
+  top: -10px
+  display: flex
+  flex-direction: column
+  align-items: flex-end
+  z-index: 1
+
+.photo-user
+  width: 170px
+  display: flex
+  align-items: center
+  justify-content: center
+
+.logo-company
+  width: 80px
+  display: flex
+  align-items: center
+  justify-content: center
+  position: absolute
+  right: -20px
+  bottom: 0
+
+.reviews-box__content
+  border: 3px solid #898989
+    radius: 7px
+  box-shadow: 4px 4px 9px 0px rgba(50, 50, 50, 0.33)
+  background: #ffffff
+  width: calc(100% - 90px)
+  margin: 0 0 0 auto
+  padding: 20px 20px 20px 100px
+  font-size: 15px
+  font-style: italic
+  min-height: 120px
+  blockquote
+    margin: 0 0 30px
+    position: relative
+    padding: 0 15px 33px 20px
+    color: $text
+    text-align: justify
+    &:before, &:after
+      content: ''
+      position: absolute
+      width: 23px
+      height: 25px
+    &:before
+      left: -15px
+      top: 0
+      background: url("../img/otzbeg.gif") no-repeat center
+        size: contain
+    &:after
+      bottom: 0
+      right: 0
+      background: url("../img/otzend.gif") no-repeat center
+        size: contain
+    p
+      margin: 0 0 10px
+      &:last-child
+        margin: 0
+  .add-reviews
+    margin: 5px 0 0 auto
+
+
+.name-user, .company-user
+  color: $accent
+  font-weight: bold
+  font-size: 15px
+  font-style: italic
+  padding: 0 0 0 20px
+
+.name-user
+  margin: 0 0 5px
+
+.more-reviews
+  font-weight: bold
+  text-align: right
+  width: 100%
+  margin: 0 0 -30px
+  padding: 0 20px 0 0
+  color: #00b8e1
+  font-style: normal
+  font-size: 16px
+  &:hover
+    color: $accent
+
+
 
 @import "media"
 // Всегда в конце
