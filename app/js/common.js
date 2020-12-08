@@ -73,6 +73,10 @@ $('.logo-line__slider1').slick({
     slidesToShow: 1
 });
 
+$('.design-slider').slick({
+    slidesToShow: 1
+});
+
 $('.modal').on('shown.bs.modal', function (e) {
     $(this).find('.slick-slider').slick('setPosition');
 });
