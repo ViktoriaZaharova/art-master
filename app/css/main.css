@@ -2199,11 +2199,80 @@ input {
     background-size: 100%;
   padding: 0 50px; }
 
+.signboards-info .text-content {
+  margin: 70px 0 0; }
+
+.we-produce h2 {
+  text-align: left;
+  margin: 0 0 60px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px;
+  font-size: 44px;
+  background: #323232;
+  color: #fff; }
+
+.we-produce .wrapper {
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.signboards-about {
+  margin: 60px 0 0;
+  min-height: 483px;
+  background: url("../img/singboards/vyveski-about-line.png") no-repeat center top;
+  color: #fff; }
+  .signboards-about .text-content {
+    line-height: 25px;
+    margin: 25px -45px 0 0; }
+    .signboards-about .text-content p {
+      margin: 0 0 10px; }
+      .signboards-about .text-content p:last-child {
+        margin: 0; }
+  .signboards-about .text-content-bottom {
+    color: #000; }
+
+.price-calculation {
+  background: url("../img/singboards/vyveski-price-line.png") no-repeat center top;
+  color: #fff;
+  min-height: 686px;
+  margin: 60px 0 0; }
+  .price-calculation h2 {
+    margin: 75px 0 60px;
+    font-size: 40px; }
+  .price-calculation .text-content {
+    line-height: normal; }
+    .price-calculation .text-content p {
+      margin: 0 0 10px; }
+      .price-calculation .text-content p:last-child {
+        margin: 0; }
+  .price-calculation .btn {
+    margin: 40px auto 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content; }
+
+.price-calculation__box {
+  padding: 0 60px 0 0;
+  margin: 0 0 0 -30px; }
+
+.company-works {
+  margin: 50px 0; }
+
+.seal-slogan-signboards h3 {
+  font-size: 30px;
+  margin: 0 0 50px; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
   .technology-line-inner {
-    width: 100%; } }
+    width: 100%; }
+  .signboards-about .text-content {
+    margin-right: 0;
+    font-size: 19px; }
+  .price-calculation__box {
+    margin: 0; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -2318,7 +2387,12 @@ input {
   .new-technology-box {
     padding: 0 30px 20px; }
     .new-technology-box br {
-      display: none; } }
+      display: none; }
+  .signboards-about .text-content {
+    font-size: 16px;
+    line-height: 20px; }
+  .price-calculation .text-content {
+    font-size: 16px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 940px) {
@@ -2512,7 +2586,31 @@ input {
     font-size: 150px;
     margin: 30px 0 0; }
   .menu-category-section-advertisins .links-category {
-    margin: 0 auto 50px; } }
+    margin: 0 auto 50px; }
+  .we-produce {
+    margin: 30px 0 0; }
+    .we-produce h3 {
+      font-size: 40px; }
+  .signboards-info .text-content {
+    margin: 30px auto; }
+  .signboards-about, .price-calculation {
+    min-height: auto;
+    margin: 30px 0 0;
+    background: transparent; }
+    .signboards-about .text-content, .price-calculation .text-content {
+      color: #000;
+      margin: 10px 0 0; }
+  .price-calculation {
+    margin: 40px 0 0; }
+    .price-calculation h2 {
+      margin: 0 auto 20px; }
+    .price-calculation .btn {
+      margin: 30px auto 0; }
+  .seal-slogan-signboards h3 {
+    font-size: 24px;
+    margin: 0 auto 20px; }
+  .price-calculation__box {
+    padding: 0; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px) {
@@ -2768,7 +2866,9 @@ input {
   .advertisins-about {
     padding: 30px 0; }
   .menu-category-section-advertisins .links-category {
-    margin: 0 auto 30px; } }
+    margin: 0 auto 30px; }
+  .we-produce h2, .price-calculation h2 {
+    font-size: 30px; } }
 
 @media only screen and (max-width: 480px) {
   .phone {
