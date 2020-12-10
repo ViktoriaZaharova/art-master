@@ -4,7 +4,8 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px)
-  /**/
+  .technology-line-inner
+    width: 100%
 
 
 /* Medium Devices, Desktops */
@@ -138,6 +139,17 @@
   .we-print__box
     font-size: 18px
 
+  .technology-line-inner__item
+    width: 25%
+    margin: 0 0 20px
+
+  .technology-line-inner
+    justify-content: flex-start
+
+  .new-technology-box
+    padding: 0 30px 20px
+    br
+      display: none
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 940px)
@@ -159,11 +171,24 @@
     width: 25%
     margin: 0 0 20px
 
+  .number-reasons
+    font-size: 200px
+    margin: 0 auto
+    color: $accent
+
+  .reasons-orders
+    margin: 40px 0 0
+    background: transparent
+    ul
+      padding: 15px 0 0
+    .btn
+      margin: 20px 0 0
+
 @media only screen and (max-width: 768px)
   .header-box
     text-align: center
 
-  h2, h1, .specialization-company__content, .contacts h1
+  h2, h1, .specialization-company__content, .contacts h1, .sales-partners__box h2, .spectrum-of-materials h2
     font-size: 40px
 
   .customer-problems__item
@@ -314,11 +339,49 @@
     .wrapper
       justify-content: flex-start
 
+  .technology-line-inner__item
+    width: 33.3%
+
+  .technology-line-inner
+    margin: 40px auto 0
+
+  .technology-line-inner__item-content
+    padding: 20px 10px
+    align-items: center
+    justify-content: center
+    display: flex
+    flex-wrap: wrap
+
+  .new-technology-box h3
+    font-size: 75px
+
+  .quote
+    font-size: 24px
+
+  .spectrum-of-materials
+    background: transparent
+
+  .flexible-prices
+    padding: 70px 0
+    min-height: auto
+    background: $footer-bg-bottom
+    h2
+      margin: 0 0 20px
+      padding: 0 0 20px
+
+  .number-reasons
+    font-size: 150px
+    margin: 30px 0 0
+
+  .menu-category-section-advertisins .links-category
+    margin: 0 auto 50px
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px)
   .main-home__slider-box
-    height: 220px
+    height: auto
+    max-width: 100%
+    width: 100%
 
     img
       width: 100%
@@ -621,6 +684,44 @@
     h4
       font-size: 20px
 
+  .technology-line-inner__item
+    font-size: 14px
+
+  .quote
+    font-size: 18px
+    padding: 0 20px
+
+  .quote-line, .sales-partners, .spectrum-of-materials, .flexible-prices
+    margin: 30px 0 0
+    
+  .sales-partners__box .box-text, .spectrum-of-materials .box-text, .flexible-prices .box-text, .list-disc, .advertisins-about__text
+    font-size: 16px
+    text-align: left
+
+  .flexible-prices
+    padding: 40px 0
+    h2
+      text-align: center
+      border-bottom-width: 2px
+
+  .number-reasons
+    font-size: 100px
+    text-align: center
+    margin: 0 auto
+
+  .reasons-orders
+    h2
+      margin: 0 auto
+      font-size: 24px
+    .btn
+      margin: 30px auto 0
+
+  .advertisins-about
+    padding: 30px 0
+
+  .menu-category-section-advertisins .links-category
+    margin: 0 auto 30px
+
 @media only screen and (max-width: 480px)
   .phone
     font-size: 16px
@@ -643,7 +744,7 @@
     img
       max-width: 60px
 
-  h2, h1, .contacts h1, .logo-line__stages h2
+  h2, h1, .contacts h1, .logo-line__stages h2, .sales-partners__box h2, .spectrum-of-materials h2
     font-size: 30px
 
   .youwant-line__item
@@ -738,6 +839,9 @@
 
   .logo-line__costs_text
     font-size: 16px
+
+  .technology-line-inner__item
+    width: 50%
 
 
 /* Custom, iPhone Retina */
