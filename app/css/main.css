@@ -160,7 +160,8 @@ a {
   background: #e44d26;
   color: #fff;
   font-size: 20px;
-  font-weight: 100; }
+  font-weight: 100;
+  text-transform: uppercase; }
   .btn-accent:hover, .btn-accent:focus {
     background: #333333;
     color: #fff; }
@@ -2535,6 +2536,174 @@ input {
   margin: 0;
   font-size: 30px; }
 
+.assembly-line {
+  background: url("../img/assembly/montazh-line__montazh.png") no-repeat center;
+  min-height: 358px;
+  margin: 60px 0 0; }
+  .assembly-line h2 {
+    text-align: left;
+    margin: 100px 0 20px 15px;
+    font-size: 40px; }
+  .assembly-line h4 {
+    color: #fff;
+    padding: 30px 0 0 15px;
+    font-size: 25px;
+    font-weight: bold; }
+  .assembly-line .text-content {
+    padding: 30px 0 0 15px;
+    font-size: 20px; }
+
+.entrust-the-installation {
+  background: url("../img/assembly/montazh-line__montazh1.png") no-repeat center;
+  min-height: 555px;
+  color: #fff; }
+  .entrust-the-installation .btn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 40px 0 0; }
+  .entrust-the-installation h2 {
+    color: #ffff;
+    text-align: left;
+    margin: 20px 0;
+    padding: 0 0 0 15px;
+    font-size: 38px; }
+  .entrust-the-installation .text-content {
+    font-size: 20px;
+    margin: 70px 0 0; }
+
+.installation-service {
+  min-height: 625px;
+  margin: 70px 0 0;
+  background: url("../img/assembly/montazh-line__montazh2.png") no-repeat center; }
+  .installation-service h2 {
+    margin: 100px 0 20px;
+    text-align: left;
+    font-size: 40px;
+    padding-left: 15px; }
+  .installation-service ul {
+    padding: 30px 0 0 40px;
+    font-size: 20px; }
+    .installation-service ul li {
+      margin: 0 0 5px; }
+      .installation-service ul li:last-child {
+        margin: 0; }
+
+.installation-service-all {
+  font-size: 20px;
+  color: #fff;
+  min-height: 753px;
+  background: url("../img/assembly/montazh-line__montazh3.jpg") no-repeat center; }
+  .installation-service-all h2 {
+    margin: 60px 0 20px;
+    padding: 0 0 0 15px;
+    font-size: 40px;
+    text-align: left; }
+  .installation-service-all ul {
+    font-size: 20px; }
+  .installation-service-all .text-content {
+    font-size: 20px; }
+
+.installation-service-all-content {
+  position: relative;
+  margin: 30px 0 0 0;
+  padding: 0 0 0 55px; }
+  .installation-service-all-content img {
+    position: absolute;
+    left: 0;
+    top: 0; }
+  .installation-service-all-content ul {
+    margin: 10px 0; }
+
+.button-row {
+  margin: 40px auto 0; }
+  .button-row .btn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content; }
+
+.brand-zone-info {
+  margin: 60px 0 0;
+  min-height: 416px;
+  background: url("../img/brand-zone/brend-line__oborud_bg1.png") no-repeat center; }
+  .brand-zone-info h1 {
+    text-align: left;
+    color: #e44d26; }
+
+.brand-zone-info-line {
+  min-height: 426px;
+  margin: 80px 0 0;
+  background: url("../img/brand-zone/brend-line__oborud_bg2.png") no-repeat center top; }
+
+.brand-zone-info-line__item {
+  background: #e44d26;
+  color: #fff;
+  padding: 50px 40px; }
+  .brand-zone-info-line__item h4 {
+    margin: 40px 0 50px;
+    font-weight: bold;
+    font-size: 22px; }
+  .brand-zone-info-line__item .btn-border {
+    border-color: #fff;
+    color: #fff; }
+  .brand-zone-info-line__item .btn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0 20px;
+    margin: 0; }
+
+.why-are {
+  margin: 80px 0 0;
+  background: url("../img/brand-zone/brend-line__why-we_bg.png") no-repeat center top;
+  min-height: 563px;
+  color: #fff; }
+  .why-are h2 {
+    color: #fff;
+    text-align: left;
+    margin: 10px 0 50px; }
+  .why-are h4 {
+    text-transform: uppercase;
+    color: #e44d26;
+    font-weight: bold; }
+
+.resources {
+  background: url("../img/brand-zone/brend-line__resurs-bg.jpg") no-repeat center;
+    background-size: cover;
+  margin: 100px 0 0;
+  min-height: 564px;
+  color: #fff;
+  padding: 50px 0 20px; }
+  .resources h2 {
+    color: #fff;
+    text-align: left; }
+  .resources .img-wrap {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+.brand-zone-auto {
+  min-height: 857px;
+  background: url("../img/brand-zone/brend-line__vesta-bg.jpg") no-repeat center;
+    background-size: cover;
+  color: #fff; }
+
+.brand-zone-auto__content {
+  max-width: 368px;
+  width: 100%;
+  margin: 100px 0 0 auto;
+  border: 3px solid #fff;
+  padding: 50px;
+  font-size: 22px;
+  text-align: justify; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -2709,7 +2878,24 @@ input {
     background: #e44d26;
     padding: 10px 0; }
     .way-of-posting-head h2 {
-      margin: 0; } }
+      margin: 0; }
+  .assembly-line h4 {
+    padding-top: 10px; }
+  .why-are {
+    margin: 40px 0 0;
+    min-height: auto;
+    position: relative;
+    padding: 40px 0; }
+    .why-are h2 {
+      margin: 0 0 20px; }
+    .why-are:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6); } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 940px) {
@@ -2742,7 +2928,16 @@ input {
     background-size: 100%; }
   .way-of-posting-box {
     font-size: 22px;
-    min-height: 180px; } }
+    min-height: 180px; }
+  .assembly-line h2 {
+    margin: 80px 0 40px;
+    font-size: 32px; }
+  .entrust-the-installation h2 {
+    font-size: 34px; }
+  .installation-service-all {
+    font-size: 16px; }
+    .installation-service-all .text-content, .installation-service-all ul {
+      font-size: 16px; } }
 
 @media only screen and (max-width: 768px) {
   .header-box {
@@ -2988,7 +3183,102 @@ input {
   .seal-slogan-brands .seal-slogan-box {
     padding: 20px; }
   .seal-slogan-brands h3 {
-    font-size: 24px; } }
+    font-size: 24px; }
+  .assembly-line {
+    background: transparent;
+    min-height: auto;
+    margin: 30px 0; }
+    .assembly-line h4 {
+      color: #333;
+      padding: 0;
+      margin: 20px 0;
+      font-size: 18px; }
+    .assembly-line .text-content {
+      padding: 0;
+      font-size: 16px; }
+    .assembly-line h2 {
+      margin: 0 auto 20px; }
+  .entrust-the-installation {
+    background: transparent;
+    min-height: auto; }
+    .entrust-the-installation .text-content {
+      padding: 10px;
+      background: #393939;
+      margin: 0;
+      font-size: 16px; }
+    .entrust-the-installation .btn {
+      padding: 0 10px; }
+    .entrust-the-installation h2 {
+      font-size: 30px;
+      background: #e44d26;
+      margin: 0 0 20px;
+      padding: 10px; }
+  .installation-service {
+    background: transparent;
+    min-height: auto;
+    margin: 30px 0; }
+    .installation-service h2 {
+      font-size: 30px;
+      margin: 0 0 20px;
+      padding: 0; }
+    .installation-service .list-dots {
+      padding: 0 0 0 30px;
+      font-size: 16px; }
+  .installation-service-all {
+    position: relative;
+    min-height: auto;
+    padding: 30px 0; }
+    .installation-service-all h2 {
+      margin: 0 0 20px;
+      padding: 0;
+      font-size: 30px; }
+    .installation-service-all:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6); }
+  .installation-service-all-content {
+    padding-left: 25px; }
+    .installation-service-all-content img {
+      max-width: 15px; }
+  .brand-zone-auto {
+    min-height: auto;
+    padding: 30px 0;
+    position: relative; }
+    .brand-zone-auto:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6); }
+  .brand-zone-auto__content {
+    font-size: 18px;
+    margin: 0 0 0 auto;
+    text-align: left;
+    padding: 20px; }
+  .resources {
+    margin: 40px 0 0; }
+    .resources .img-wrap {
+      margin: 30px auto;
+      height: auto; }
+  .brand-zone-info-line__item {
+    padding: 30px; }
+    .brand-zone-info-line__item h4 {
+      margin: 20px 0;
+      font-size: 18px; }
+  .brand-zone-info-line {
+    min-height: auto;
+    margin: 40px 0 0; }
+  .brand-zone-info {
+    min-height: auto;
+    margin: 40px 0 0; }
+    .brand-zone-info h1 {
+      margin: 0 0 20px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px) {
