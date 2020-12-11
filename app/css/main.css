@@ -2315,6 +2315,49 @@ input {
     width: 100%;
     margin: 55px 0 0 -40px; }
 
+.boxes-info {
+  background: url("../img/boxes/lightbox-info_bg.png") no-repeat center 70px; }
+  .boxes-info h2 {
+    color: #EE2524; }
+  .boxes-info .text-content {
+    line-height: 25px; }
+
+.production-of-boxes {
+  margin: 60px 0 0; }
+  .production-of-boxes h2 {
+    color: #fff;
+    background: #e44d26;
+    text-align: left;
+    padding: 15px 40px; }
+  .production-of-boxes .text-content p {
+    margin: 0 0 10px; }
+    .production-of-boxes .text-content p:last-child {
+      margin: 0; }
+
+.production-of-boxes-img {
+  margin: 40px auto 0; }
+
+.order-box {
+  margin: 40px 0 0; }
+  .order-box h2 {
+    text-align: right; }
+  .order-box .btn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 0 0 auto; }
+
+.boxes-key {
+  margin: 60px 0 0;
+  min-height: 611px;
+  color: #fff;
+  background: url("../img/boxes/lightbox-key-line.jpg") no-repeat center top; }
+  .boxes-key h2 {
+    margin: 83px 0 20px;
+    font-size: 40px; }
+  .boxes-key .text-content {
+    margin: 60px 0 0; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -2457,7 +2500,19 @@ input {
       margin: 0; }
   .why-letters__content {
     background: #393939;
-    padding: 20px; } }
+    padding: 20px; }
+  .boxes-info {
+    background-position: center bottom; }
+  .boxes-key {
+    background: transparent;
+    margin: 30px 0 0;
+    min-height: auto; }
+    .boxes-key h2 {
+      margin: 0 auto 20px; }
+    .boxes-key .text-content {
+      background: #e44d26;
+      padding: 15px;
+      margin: 0; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 940px) {
@@ -2689,7 +2744,13 @@ input {
     text-transform: uppercase;
     font-weight: bold; }
     .letter-options .btn span {
-      display: block; } }
+      display: block; }
+  .production-of-boxes-img {
+    margin: 20px auto; }
+  .production-of-boxes {
+    margin: 40px 0 0; }
+    .production-of-boxes h2 {
+      padding: 15px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px) {
@@ -2946,7 +3007,7 @@ input {
     padding: 30px 0; }
   .menu-category-section-advertisins .links-category {
     margin: 0 auto 30px; }
-  .we-produce h2, .price-calculation h2, .letters-info h2, .letter-options h2, .why-letters h2 {
+  .we-produce h2, .price-calculation h2, .letters-info h2, .letter-options h2, .why-letters h2, .boxes-key h2 {
     font-size: 30px; }
   .letter-options ul {
     font-size: 16px;
