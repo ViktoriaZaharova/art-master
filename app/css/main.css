@@ -2358,6 +2358,66 @@ input {
   .boxes-key .text-content {
     margin: 60px 0 0; }
 
+.advantages-composite {
+  background: #e44d26;
+  color: #fff; }
+  .advantages-composite h2 {
+    color: #fff;
+    font-weight: normal;
+    text-align: left;
+    font-size: 30px;
+    margin: 20px 0 10px;
+    text-transform: none;
+    padding: 0 0 0 10px; }
+  .advantages-composite .text-content {
+    font-size: 16px;
+    padding: 0 0 0 10px; }
+  .advantages-composite ul {
+    font-size: 16px;
+    padding: 0 0 0 10px;
+    margin: 20px 0 0; }
+
+.benefit-groups {
+  margin: 30px 0 0; }
+  .benefit-groups h2 {
+    text-align: left;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0 0 10px; }
+  .benefit-groups .box-text {
+    padding: 0 0 0 20px;
+    margin: 0 0 25px; }
+
+.benefit-groups-box {
+  color: #5c5c5c;
+  margin: 0 0 30px; }
+  .benefit-groups-box h3 {
+    font-size: 24.5px; }
+
+.benefit-groups-box__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 10px; }
+
+.benefit-groups-box__icon {
+  margin: 0 10px 0 0;
+  width: 46px;
+  min-width: 46px; }
+
+.benefit-groups-box__body {
+  padding: 0 0 0 35px;
+  text-indent: 20px;
+  line-height: 1.6em; }
+  .benefit-groups-box__body p {
+    margin: 0 0 10px; }
+    .benefit-groups-box__body p:last-child {
+      margin: 0; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -2750,7 +2810,26 @@ input {
   .production-of-boxes {
     margin: 40px 0 0; }
     .production-of-boxes h2 {
-      padding: 15px; } }
+      padding: 15px; }
+  .exhibition-stands .box-text, .advantages-composite .box-text {
+    padding: 0; }
+  .exhibition-stands .img-wrap, .advantages-composite .img-wrap {
+    margin: 20px auto 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .advantages-composite {
+    padding: 30px 0; }
+    .advantages-composite ul {
+      padding: 0 0 0 30px; }
+  .benefit-groups-box h3 {
+    font-size: 22px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px) {
