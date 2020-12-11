@@ -2263,6 +2263,58 @@ input {
   font-size: 30px;
   margin: 0 0 50px; }
 
+.letters-info {
+  margin: 60px 0 0;
+  min-height: 541px;
+  background: url("../img/letters/obyom-info-line.png") no-repeat center bottom; }
+  .letters-info h2 {
+    font-size: 40px;
+    text-align: left;
+    margin: 0 0 20px; }
+
+.letter-options {
+  background: url("../img/letters/variant-line.png") no-repeat center 90px;
+  margin: 60px 0 0;
+  font-size: 22px;
+  min-height: 647px; }
+  .letter-options h2 {
+    margin: 0 0 20px;
+    font-size: 38px;
+    text-align: left; }
+  .letter-options .btn {
+    background: transparent;
+    margin: 515px 0 0;
+    max-width: 557px;
+    width: 100%;
+    height: 87px; }
+    .letter-options .btn span {
+      display: none; }
+  .letter-options ul {
+    padding: 0 0 0 5px;
+    margin: 0 0 20px;
+    background: url("../img/letters/variant-line_ul.png") no-repeat left 5px; }
+    .letter-options ul li {
+      padding-left: 45px;
+      margin: 0 0 10px; }
+  .letter-options .text-content p {
+    margin: 0 0 10px; }
+    .letter-options .text-content p:last-child {
+      margin: 0; }
+
+.why-letters {
+  margin: 80px 0 0;
+  min-height: 581px;
+  background: url("../img/letters/obyom-why.jpg") no-repeat center;
+  color: #fff; }
+  .why-letters h2 {
+    margin: 105px 0 20px -40px;
+    color: #ffffff;
+    text-align: left; }
+  .why-letters .text-content {
+    max-width: 550px;
+    width: 100%;
+    margin: 55px 0 0 -40px; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -2272,7 +2324,9 @@ input {
     margin-right: 0;
     font-size: 19px; }
   .price-calculation__box {
-    margin: 0; } }
+    margin: 0; }
+  .why-letters h2, .why-letters .text-content {
+    margin-left: -10px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -2392,7 +2446,18 @@ input {
     font-size: 16px;
     line-height: 20px; }
   .price-calculation .text-content {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .why-letters {
+    min-height: auto;
+    background: transparent;
+    margin: 40px 0 0; }
+    .why-letters h2 {
+      margin: 0 auto 20px; }
+    .why-letters .text-content {
+      margin: 0; }
+  .why-letters__content {
+    background: #393939;
+    padding: 20px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 940px) {
@@ -2610,7 +2675,21 @@ input {
     font-size: 24px;
     margin: 0 auto 20px; }
   .price-calculation__box {
-    padding: 0; } }
+    padding: 0; }
+  .letters-info, .letter-options {
+    background: transparent;
+    margin: 40px 0 0;
+    min-height: auto; }
+  .letter-options ul {
+    font-size: 20px; }
+  .letter-options .btn {
+    height: 50px;
+    background: #e44d26;
+    margin: 20px auto 0;
+    text-transform: uppercase;
+    font-weight: bold; }
+    .letter-options .btn span {
+      display: block; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px) {
@@ -2867,8 +2946,15 @@ input {
     padding: 30px 0; }
   .menu-category-section-advertisins .links-category {
     margin: 0 auto 30px; }
-  .we-produce h2, .price-calculation h2 {
-    font-size: 30px; } }
+  .we-produce h2, .price-calculation h2, .letters-info h2, .letter-options h2, .why-letters h2 {
+    font-size: 30px; }
+  .letter-options ul {
+    font-size: 16px;
+    background: transparent;
+    list-style-type: disc;
+    padding: 0 0 0 20px; }
+    .letter-options ul li {
+      padding: 0; } }
 
 @media only screen and (max-width: 480px) {
   .phone {

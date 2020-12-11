@@ -14,6 +14,11 @@
   .price-calculation__box
     margin: 0
 
+  .why-letters
+    h2, .text-content
+      margin-left: -10px
+
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
   .phone
@@ -163,6 +168,19 @@
 
   .price-calculation .text-content
     font-size: 16px
+
+  .why-letters
+    min-height: auto
+    background: transparent
+    margin: 40px 0 0
+    h2
+      margin: 0 auto 20px
+    .text-content
+      margin: 0
+
+  .why-letters__content
+    background: $footer-bg
+    padding: 20px
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 940px)
@@ -418,6 +436,24 @@
 
   .price-calculation__box
     padding: 0
+
+  .letters-info, .letter-options
+    background: transparent
+    margin: 40px 0 0
+    min-height: auto
+
+  .letter-options
+    ul
+      font-size: 20px
+    .btn
+      height: 50px
+      background: $accent
+      margin: 20px auto 0
+      text-transform: uppercase
+      font-weight: bold
+      span
+        display: block
+
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px)
@@ -765,11 +801,18 @@
   .menu-category-section-advertisins .links-category
     margin: 0 auto 30px
 
-  .we-produce, .price-calculation
+  .we-produce, .price-calculation, .letters-info, .letter-options, .why-letters
     h2
       font-size: 30px
 
-
+  .letter-options
+    ul
+      font-size: 16px
+      background: transparent
+      list-style-type: disc
+      padding: 0 0 0 20px
+      li
+        padding: 0
 
 @media only screen and (max-width: 480px)
   .phone
