@@ -1961,6 +1961,10 @@ input {
   font-size: 22px;
   text-align: justify;
   line-height: 1.4; }
+  .text-content p {
+    margin: 0 0 10px; }
+    .text-content p:last-child {
+      margin: 0; }
 
 .design-slider {
   margin: 60px auto 30px; }
@@ -2189,6 +2193,12 @@ input {
 
 .quote-line {
   margin: 80px 0 0; }
+  .quote-line .btn-order {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 20px auto 0;
+    text-transform: uppercase; }
 
 .quote {
   font-size: 30px;
@@ -2418,6 +2428,113 @@ input {
     .benefit-groups-box__body p:last-child {
       margin: 0; }
 
+.roof-info {
+  min-height: 511px;
+  margin: 30px 0 0;
+  background: url("../img/roof/krishn-line__about.png") no-repeat center top; }
+  .roof-info h2 {
+    margin: 30px 0 35px;
+    text-align: left;
+    font-size: 40px;
+    color: #fff; }
+
+.quality-performance {
+  margin: 80px 0 0;
+  min-height: 737px;
+  color: #fff;
+  background: url("../img/roof/krishn-line__quality.png") no-repeat center; }
+  .quality-performance h2 {
+    color: #fff;
+    margin: 100px auto;
+    font-size: 40px;
+    text-align: left; }
+
+.roof-document-head {
+  min-height: 204px;
+  padding: 80px 0 0;
+  margin: 60px 0 0;
+  background: url("../img/roof/krishn-line__project-head.png") no-repeat center top; }
+  .roof-document-head h2 {
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+    text-align: left; }
+
+.roof-document-body {
+  background: url("../img/roof/krishn-line__project-text.png") no-repeat center;
+  min-height: 393px;
+  margin: 60px 0 0; }
+
+.brands-auto-info {
+  margin: 40px 0 0;
+  background: url("../img/brands-auto/brend-transp-info_bg.png") no-repeat center top; }
+  .brands-auto-info h2 {
+    color: #EE2524;
+    text-align: left; }
+
+.way-of-posting-head {
+  min-height: 232px;
+  margin: 80px 0 150px;
+  padding: 45px 0 0;
+  background: url("../img/brands-auto/brend-transp-sposoby.png") no-repeat center top; }
+  .way-of-posting-head h2 {
+    color: #fff;
+    text-align: left; }
+
+.way-of-posting-box {
+  min-height: 196px;
+  width: 100%;
+  max-width: 934px;
+  margin: 0 auto 5px;
+  color: #e44d26;
+  text-transform: uppercase;
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .way-of-posting-box:last-child {
+    margin: 0 auto; }
+  .way-of-posting-box h3 {
+    max-width: 50%;
+    margin: 0 0 0 auto; }
+
+.way-of-posting-box-one {
+  background: url("../img/brands-auto/brend-transp-sposob-line__one.png") no-repeat center; }
+
+.way-of-posting-box-two {
+  background: url("../img/brands-auto/brend-transp-sposob-line__two.png") no-repeat center; }
+  .way-of-posting-box-two h3 {
+    max-width: 60%;
+    margin: 0;
+    padding-left: 30px; }
+
+.way-of-posting-box-three {
+  background: url("../img/brands-auto/brend-transp-sposob-line__three.png") no-repeat center; }
+
+.brands-auto-advantages {
+  min-height: 352px;
+  margin: 80px 0 0;
+  background: url("../img/brands-auto/brend-transp-puzir-line.png") no-repeat center bottom; }
+  .brands-auto-advantages h2 {
+    text-align: left;
+    color: #EE2524;
+    font-size: 45px; }
+  .brands-auto-advantages .text-content {
+    color: #fff;
+    background: #e44d26;
+    padding: 30px 25px; }
+
+.seal-slogan-brands .seal-slogan-box {
+  padding: 20px 61px;
+  text-align: left; }
+
+.seal-slogan-brands h3 {
+  margin: 0;
+  font-size: 30px; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -2429,7 +2546,9 @@ input {
   .price-calculation__box {
     margin: 0; }
   .why-letters h2, .why-letters .text-content {
-    margin-left: -10px; } }
+    margin-left: -10px; }
+  .roof-document-head {
+    padding: 50px 0 0; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -2572,6 +2691,24 @@ input {
     .boxes-key .text-content {
       background: #e44d26;
       padding: 15px;
+      margin: 0; }
+  .roof-info h2 {
+    margin: 10px 0; }
+  .quality-performance h2 {
+    margin: 60px auto; }
+  .roof-document-head {
+    margin: 30px 0 0;
+    padding: 20px 0;
+    min-height: auto;
+    background: #e44d26; }
+  .brands-auto-info {
+    background-position: center; }
+  .way-of-posting-head {
+    margin: 70px 0;
+    min-height: auto;
+    background: #e44d26;
+    padding: 10px 0; }
+    .way-of-posting-head h2 {
       margin: 0; } }
 
 /* Small Devices, Tablets */
@@ -2600,7 +2737,12 @@ input {
     .reasons-orders ul {
       padding: 15px 0 0; }
     .reasons-orders .btn {
-      margin: 20px 0 0; } }
+      margin: 20px 0 0; }
+  .way-of-posting-box-one, .way-of-posting-box-two, .way-of-posting-box-three {
+    background-size: 100%; }
+  .way-of-posting-box {
+    font-size: 22px;
+    min-height: 180px; } }
 
 @media only screen and (max-width: 768px) {
   .header-box {
@@ -2786,7 +2928,7 @@ input {
       margin: 0 auto 20px; }
     .price-calculation .btn {
       margin: 30px auto 0; }
-  .seal-slogan-signboards h3 {
+  .seal-slogan-signboards h3, .roof-info h2 {
     font-size: 24px;
     margin: 0 auto 20px; }
   .price-calculation__box {
@@ -2829,7 +2971,24 @@ input {
     .advantages-composite ul {
       padding: 0 0 0 30px; }
   .benefit-groups-box h3 {
-    font-size: 22px; } }
+    font-size: 22px; }
+  .roof-info h2 {
+    color: #e44d26; }
+  .roof-document-body {
+    margin: 30px 0 0; }
+    .roof-document-body .text-content {
+      max-width: 80%; }
+  .brands-auto-info {
+    background: transparent;
+    margin: 30px 0 0; }
+  .brands-auto-advantages {
+    margin: 40px 0 0; }
+    .brands-auto-advantages h2 {
+      font-size: 40px; }
+  .seal-slogan-brands .seal-slogan-box {
+    padding: 20px; }
+  .seal-slogan-brands h3 {
+    font-size: 24px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px) {
@@ -3094,7 +3253,33 @@ input {
     list-style-type: disc;
     padding: 0 0 0 20px; }
     .letter-options ul li {
-      padding: 0; } }
+      padding: 0; }
+  .quality-performance {
+    margin: 40px 0 0;
+    padding: 30px 0;
+    min-height: auto;
+    background-position: center bottom; }
+    .quality-performance h2 {
+      margin: 0 0 20px;
+      font-size: 30px; }
+  .roof-document-body {
+    min-height: auto;
+    margin: 0;
+    padding: 50px 0; }
+  .roof-document-head h2 {
+    font-size: 30px; }
+  .way-of-posting-box {
+    min-height: 120px;
+    font-size: 14px; }
+  .way-of-posting-head {
+    margin: 40px 0; }
+  .way-of-posting-box-two h3 {
+    padding-left: 10px; }
+  .brands-auto-advantages h2 {
+    font-size: 30px; }
+  .seal-slogan-brands h3 {
+    font-size: 22px;
+    text-align: center; } }
 
 @media only screen and (max-width: 480px) {
   .phone {
@@ -3194,4 +3379,8 @@ input {
     margin: 0; }
   .page-link {
     font-size: 14px;
-    padding: 1px 5px; } }
+    padding: 1px 5px; }
+  .roof-document-body .text-content {
+    max-width: 90%; }
+  .way-of-posting-box {
+    min-height: 80px; } }
