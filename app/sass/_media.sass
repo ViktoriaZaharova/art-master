@@ -21,6 +21,12 @@
   .roof-document-head
     padding: 50px 0 0
 
+  .video-slider
+    .slick-prev
+      left: 0
+    .slick-next
+      right: 0
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
   .phone
@@ -241,6 +247,30 @@
       height: 100%
       background: rgba(#000, .6)
 
+  .confidence-box__body:before
+    display: none
+
+  .confidence
+    padding: 40px 0
+    h2
+      margin: 0 auto 40px
+
+  .stages-work
+    padding: 50px 0
+    h2
+      margin: 0 auto 40px
+
+  .views-work
+    padding: 50px 0
+    h2
+      margin: 0 auto 40px
+    .btn
+      margin: 40px auto 0
+
+
+  .video-slider__box
+    height: 500px
+
 /* Small Devices, Tablets */
 @media only screen and (max-width: 940px)
   .price-benefit-box__text
@@ -249,6 +279,15 @@
 
   .price-benefit .btn
     margin: 30px auto 0
+
+  .suitable-for-box__title
+    font-size: 20px
+
+  .suitable-for h2
+    margin: 0 auto 40px
+
+  .btn-border-decor3
+    margin: 40px auto 0
 
 @media only screen and (max-width: 860px)
   .seal-info-line
@@ -294,6 +333,8 @@
     font-size: 16px
     .text-content, ul
       font-size: 16px
+
+
 
 
 @media only screen and (max-width: 768px)
@@ -689,6 +730,42 @@
     h1
       margin: 0 0 20px
 
+  .suitable-for
+    padding: 70px 0
+
+  .advantages-box
+    font-size: 18px
+    width: calc(33.3% - 20px)
+    margin: 0 0 30px
+
+  .advantages
+    padding: 0 0 40px
+    h2
+      margin: 0 auto 30px
+
+  .mb-100
+    margin-bottom: 40px
+
+  .confidence-box
+    max-width: none
+    background: rgba(0, 0, 0, 0.35)
+    padding: 10px
+    &:before
+      display: none
+
+  .confidence-box2, .confidence-box4
+    margin-left: 0
+
+  .timerDisplay
+    .displaySection
+      margin: 0 30px 30px 0
+      &:after
+        right: -15px
+      &:last-child
+        margin: 0 0 30px
+
+  .mb-88
+    margin-bottom: 40px
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px)
   .main-home__slider-box
@@ -735,7 +812,7 @@
     width: 100%
 
   .views-work
-    margin: 40px 0 30px
+    padding: 40px 0
 
   .views-work-advertising .btn
     font-size: 20px
@@ -1084,6 +1161,80 @@
     font-size: 22px
     text-align: center
 
+  .main-home__title
+    font-size: 40px
+
+  .main-home__content .box-text
+    font-size: 18px
+    margin: 10px 0 20px
+
+  .btn-border-decor
+    font-size: 24px
+
+  .main-home__slider-box, .suitable-for
+    padding: 50px 0
+
+  .advantages-box
+    width: calc(50% - 20px)
+
+  .advantages
+    .btn-border-decor
+      font-size: 18px
+      margin: 0 auto
+
+  .stages-work-box
+    .box-text
+      font-size: 20px
+      line-height: normal
+    h4
+      font-size: 24px
+      line-height: normal
+    &__time
+      font-size: 20px
+
+  .numberDisplay
+    font-size: 30px
+
+  .periodDisplay
+    font-size: 12px
+
+  .timerDisplay
+    .displaySection
+      width: 100px
+      height: 100px
+
+  .timer-wrapper h3
+    font-size: 24px
+    margin: 0 auto 30px
+
+  .video-slider .slick-arrow
+    width: 40px
+    height: 40px
+    border-width: 2px
+    -webkit-background-size: 10px
+    background-size: 10px
+
+  .video-slider .slick-next
+    background-position: 15px 10px
+
+  .video-wrapper
+    padding: 0 50px
+
+  .menu-category-section
+    margin-top: 15px
+
+  .main-home
+    margin: 5px 0 0
+
+  .links-category
+    font-size: 14px
+    margin: 0 0 10px
+    img
+      max-width: 60px
+
+  .confidence
+    background-position: 30% center
+
 @media only screen and (max-width: 480px)
   .phone
     font-size: 16px
@@ -1100,11 +1251,9 @@
   .header-bottom
     padding: 10px 0
 
-  .links-category
-    font-size: 14px
 
-    img
-      max-width: 60px
+  .menu-category-section
+    display: none
 
   h2, h1, .contacts h1, .logo-line__stages h2, .sales-partners__box h2, .spectrum-of-materials h2
     font-size: 30px
@@ -1205,7 +1354,8 @@
   .technology-line-inner__item
     width: 50%
 
-
+  .advantages-box
+    width: 100%
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 380px)

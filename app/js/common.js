@@ -11,8 +11,8 @@ $('[name="phone"]').mask('+7 (999) 999-99-99')
 // slick
 $('.main-home__slider').slick({
     slidesToShow: 1,
-    arrows: true,
-    dots: true,
+    arrows: false,
+    dots: false,
     fade: true,
 });
 
@@ -120,6 +120,14 @@ $('.more-reviews').on('click', function(e){
 });
 
 $('.fancybox-item').fancybox();
+
+// $(".countdown-time1").countdowntimer({
+//     hours: '74',
+//     minutes: '45',
+//     labelsFormat: true,
+//     displayFormat: "DHM",
+//     // currentTime: true,
+// });
 
 // map
 ymaps.ready(function () {

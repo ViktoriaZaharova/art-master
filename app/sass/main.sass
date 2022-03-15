@@ -209,6 +209,77 @@ a
     &:last-child
       margin: 0
 
+.btn-border-decor
+  display: flex
+  align-items: center
+  justify-content: center
+  text-transform: uppercase
+  text-shadow: 0px 1px 3px #33BBFF
+  font-size: 30px
+  font-weight: 500
+  color: #fff
+  line-height: 35px
+  width: 100%
+  height: 100px
+  border-radius: 10px
+
+.btn-border-decor1
+  background: url("../img/border1.svg") no-repeat center
+    size: 100%
+  max-width: 350px
+
+.btn-border-decor2
+  background: url("../img/border2.svg") no-repeat center
+    size: 100%
+  max-width: 350px
+  text-shadow: 0px 1px 3px rgba(149, 240, 253, 0.65)
+  color: #5CEBFF
+  &:hover
+    color: #fff
+
+.btn-border-decor3
+  margin: 60px auto 0
+  background: url("../img/border3.svg") no-repeat center
+    size: 100%
+  max-width: 455px
+  text-shadow: 0px 0px 3.5px #0050C9
+  color: #0050C9
+  &:hover
+    color: $blue
+
+.btn-border-decor4
+  margin: 25px auto 0
+  background: url("../img/border4.svg") no-repeat center
+    size: 100%
+  max-width: 540px
+  height: 110px
+  text-shadow: 1px 1px 4px rgba(255, 0, 199, 0.88)
+  color: rgba(255, 0, 199, 0.82)
+  &:hover
+    color: $accent
+
+.btn-border-decor5
+  margin: 0 auto
+  background: url("../img/border5.svg") no-repeat center
+    size: 100%
+  height: 110px
+  max-width: 350px
+  text-shadow: 0px 1px 3px #33BBFF
+  color: #FCFCFA
+  &:hover
+    color: #000
+
+.btn-border-decor6
+  margin: 0 auto
+  background: url("../img/border6.svg") no-repeat center
+    size: 100%
+  height: 110px
+  max-width: 350px
+  text-shadow: 0px 0px 3.5px #0094FF
+  color: rgba(0, 148, 255, 0.82)
+  &:hover
+    color: #000
+
 .mt-30
   margin-top: 30px
 
@@ -217,7 +288,7 @@ a
   background: #EAEAEA
 
 .container
-  max-width: 1080px
+  max-width: 1140px
 
 
 //header
@@ -239,7 +310,7 @@ a
 .slogan
   text-align: center
   font-style: italic
-  font-size: 26px
+  font-size: 24px
   font-weight: 100
   height: 100%
   display: flex
@@ -273,11 +344,11 @@ h1
 
 h2
   text-align: center
-  font-size: 48px
+  font-size: 45px
   font-weight: bold
   margin: 0 auto 30px
   width: 100%
-  color: $accent
+  color: $blue
   text-transform: uppercase
 
 header
@@ -304,7 +375,8 @@ header
     color: $accent
 
 .links-category__name
-  margin: 20px auto 0
+  margin: 0 auto
+  //margin: 20px auto 0
 
 //main-home
 .main-home
@@ -317,8 +389,36 @@ header
   left: 40px
   z-index: 2
 
-.main-home__slider
-  margin: 0 0 25px
+
+.main-home__slider-box
+  position: relative
+  width: 100%
+  padding: 189px 0 108px
+  color: #fff
+  z-index: 1
+
+.main-home__slider__bg
+  position: absolute
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  object-fit: cover
+  z-index: -1
+
+.main-home__title
+  font-size: 57px
+  font-weight: bold
+  text-transform: uppercase
+
+.main-home__content
+  max-width: 750px
+  width: 100%
+  .box-text
+    color: #fff
+    margin: 17px 0 54px
+    font-size: 31px
+
 
 .slick-arrow
   z-index: 2
@@ -431,45 +531,322 @@ header
   img
     margin: 0 auto 20px
 
+//advantages
+.advantages
+  padding: 0 0 100px
+  h2
+    margin: 0 auto 70px
 
-//views-work
-.views-work
-  margin: 80px 0 30px
+.advantages-wrapper
+  width: 100%
+  display: flex
+  align-items: flex-start
+  justify-content: space-between
+  flex-wrap: wrap
 
-.video-wrapper
-  padding: 0 0 45px
+.advantages-box
+  width: calc(33.3% - 32.5px)
+  margin: 0 0 65px
+  background: #fff
+  border-radius: 0px 70px
+  padding: 35px 12px 47px
+  text-align: center
+  font-size: 23px
+  font-weight: 500
+  text-transform: uppercase
+  &__icon
+    display: flex
+    align-items: center
+    justify-content: center
+    text-align: center
+    margin: 0 auto 13px
+
+//confidence
+.confidence
+  background: url("../img/bg-confidence.jpeg") no-repeat center
+    size: cover
+  padding: 90px 0 100px
+  color: #fff
+  h2
+    margin: 0 auto 105px
+    color: #fff
+
+.mb-100
+  margin-bottom: 100px
+
+.confidence-box
+  max-width: 330px
+  width: 100%
+  height: 100%
   position: relative
-
+  padding: 17px 0 15px
+  z-index: 1
   &:before
     content: ''
     position: absolute
-    bottom: 0
-    left: 50%
-    width: 978px
-    height: 43px
-    transform: translate(-50%, 0)
-    background: url("../img/video-shadow.png") no-repeat center
-      size: contain
+    top: 0
+    right: 0
+    height: 100%
+    width: 2000px
+    background: rgba(0, 0, 0, 0.35)
+    border-radius: 2px
+    z-index: -1
+  .box-text
+    line-height: 21px
+    text-align: justify
+    font-size: 16px
+    color: #fff
+  h3
+    text-shadow: 0px 1px 4px #33BBFF
+    font-size: 25px
+    font-weight: 500
+    text-transform: uppercase
+    //text-align: justify
+  &__head
+    width: 100%
+    padding: 0 9px 3.5px 0
+
+  &__body
+    padding: 11px 9px 0 0
+    position: relative
+    &:before
+      content: ''
+      position: absolute
+      left: 0
+      top: 0
+      width: 433px
+      height: 119px
+      background: url("../img/line1.svg") no-repeat center
+        size: 100%
+
+
+.confidence-box2, .confidence-box4
+  margin-left: auto
+  &:before
+    left: 0
+  .confidence-box__head
+    padding: 0 0 3.5px 9px
+  .confidence-box__body
+    padding: 11px 0 0 9px
+
+.confidence-box2
+  .confidence-box__body
+    &:before
+      background: url("../img/line2.svg") no-repeat center
+        size: 100%
+      width: 468px
+      height: 68px
+      right: 0
+      left: auto
+
+.confidence-box3
+  .confidence-box__body
+    &:before
+      background: url("../img/line3.svg") no-repeat center
+        size: 100%
+      width: 347px
+      height: 4px
+
+.confidence-box4
+  .confidence-box__body
+    &:before
+      background: url("../img/line4.svg") no-repeat center
+        size: 100%
+      width: 463px
+      height: 4px
+      left: auto
+      right: 0
+
+
+//stages-work
+.stages-work
+  padding: 100px 0 92px
+  h2
+    margin: 0 auto 90px
+
+.color-blue-light
+  color: #0094FF
+
+.mb-88
+  margin-bottom: 88px
+
+.stages-work-box
+  margin: 0 auto
+  width: 100%
+  max-width: 476px
+  height: 100%
+  position: relative
+  z-index: 1
+  border: 3px solid #0094FF
+    radius: 10px
+  padding: 35px 24px 27px 24px
+  display: flex
+  align-items: flex-start
+  box-shadow: 0 0 7px #0094FF
+  &:before
+    content: ''
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    border: 3px solid #0094FF
+      radius: 10px
+    filter: blur(4px)
+    transform: matrix(1, 0, 0, -1, 0, 0)
+  &__time
+    position: absolute
+    z-index: 1
+    background: #fff
+    height: 39px
+    top: -19px
+    right: 43px
+    border: 3px solid #0094FF
+      radius: 20px
+    box-shadow: 0px 0px 7px #0094FF
+    color: #0094FF
+    font-size: 23px
+    font-weight: bold
+    text-align: center
+    width: 161px
+    display: flex
+    align-items: center
+    justify-content: center
+  &__number
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 41px
+    height: 41px
+    text-align: center
+    border: 3px solid #0094FF
+      radius: 50%
+    background: #fff
+    font-size: 24px
+    font-weight: bold
+  &__body
+    width: calc(100% - 41px)
+    padding: 0 0 0 21px
+  h4
+    font-weight: 700
+    font-size: 32px
+    line-height: 37px
+  .box-text
+    font-size: 23px
+    line-height: 31px
+    color: #000
+
+.timer-wrapper
+  text-align: center
+  h3
+    margin: 0 auto 33px
+    color: rgba(0, 0, 0, 0.82)
+    font-size: 29px
+    font-weight: bold
+    text-transform: uppercase
+    letter-spacing: 0.02em
+
+.countdown-time
+  display: flex
+  align-items: center
+  justify-content: center
+  background: transparent
+  border: none
+    radius: 0
+  letter-spacing: 0.02em
+  font-size: 55px
+  font-weight: bold
+  color: #000
+  width: 100%
+
+.timerDisplay
+  padding: 0
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 100%
+  .displaySection
+    border: none
+      radius: 10px
+    width: 154px
+    height: 140px
+    position: relative
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    background: url('../img/border7.svg') no-repeat center
+      size: 100%
+    margin: 0 97px 90px 0
+    &:after
+      content: ''
+      width: 5px
+      height: 24px
+      background: url("../img/dots.svg") no-repeat center
+        size: 100%
+      position: absolute
+      right: -45px
+      top: 50%
+      transform: translate(0,-50%)
+    &:last-child
+      margin: 0 0 90px
+      &:after
+        display: none
+
+
+.numberDisplay
+  font-size: 55px
+
+.periodDisplay
+  font-size: 17px
+  font-weight: 300
+
+//views-work
+.views-work
+  padding: 100px 0
+  background: url("../img/bg-gradient.jpeg") no-repeat center
+    size: cover
+  .btn
+    margin: 90px auto 0
+  h2
+    margin: 0 auto 90px
+
+.video-wrapper
+  padding: 0 89px
+  position: relative
 
 .video-slider
   .slick-next
-    right: 0
-
+    right: -25px
+    background: url("../img/next.svg") no-repeat 18px 10px
+      size: 28px
   .slick-prev
-    left: 0
+    background: url("../img/prev.svg") no-repeat 12px 10px
+      size: 28px
+    left: -25px
+  .slick-arrow
+    display: flex
+    align-items: center
+    justify-content: center
+    border: 4px solid #5CD8FF
+      radius: 50%
+    width: 67px
+    height: 67px
+    filter: drop-shadow(0px 4px 4px rgba(92, 235, 255, 0.25))
 
 
 .video-slider__box
-  max-width: 840px
-  height: 473px
+  height: 600px
   width: 100%
   margin: 0 auto
   position: relative
-
+  border-radius: 10px
+  overflow: hidden
+  background: #E2E2E2
   iframe
     width: 100%
     height: 100%
-    border: 2px solid black
+
 
 //customer-problems
 .customer-problems
@@ -772,8 +1149,6 @@ header
 
 //partners
 .partners
-  padding: 40px 0 0
-
   h2
     font-size: 30px
 
@@ -1370,6 +1745,12 @@ input
 .color-blue
   color: #08c
 
+.color-blue-black
+  color: #0050C9
+
+.color-pink
+  color: #FF00C7
+
 .links
   display: inline-block
 
@@ -1586,6 +1967,90 @@ input
 
   strong
     font-weight: bold
+
+//suitable-for
+.suitable-for
+  padding: 100px 0
+  h2
+    margin: 0 auto 90px
+
+.mb-30
+  margin-bottom: 30px
+
+.suitable-for-box
+  width: 100%
+  height: 100%
+  position: relative
+  z-index: 1
+  border-radius: 10px
+  overflow: hidden
+  &:before
+    content: ''
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15))
+  &__bg
+    width: 100%
+    height: 100%
+    object-fit: cover
+  &__links
+    width: 100%
+    color: #fff
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 11px
+    background: rgba(3, 3, 3, 0.65)
+    font-family: $default-font
+    font-size: 17px
+    font-weight: 500
+    line-height: 20px
+    text-transform: uppercase
+    &:hover
+      color: $blue
+    &-icon
+      margin: 0 0 0 10px
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 14px
+      height: 11px
+  &__content
+    width: 100%
+    height: 100%
+    padding: 30px 0 21px
+    position: absolute
+    left: 0
+    bottom: 0
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  &__title
+    color: #fff
+    text-align: center
+    text-transform: uppercase
+    font-size: 29px
+    font-weight: 500
+    padding: 0 10px
+    text-shadow: 0px 1px 6px #00C2FF
+    &:hover
+      color: #fff
+
+.suitable-for-box2
+  &:before
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))
+  .suitable-for-box__title
+    text-shadow: 0px 1px 6px rgba(255, 0, 199, 0.82)
+
+.suitable-for-box3
+  &:before
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))
+  .suitable-for-box__title
+    text-shadow: 0px 1px 6px #F0F362
+
 
 //price-benefit
 .price-benefit
